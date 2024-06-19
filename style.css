@@ -84,9 +84,11 @@ button {
     background: none;
     border: none;
     outline: none;
+    border-radius: 50px;
+    transition: all .1s;
 }
-button:active {
-    background: #000;
+button:hover {
+    background: #22222252;
 }
 
 
