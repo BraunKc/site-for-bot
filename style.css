@@ -72,9 +72,16 @@ nav {
     bottom: -300px; right: -300px;
 }
 
-.startBtn, .vitalySvg, .statsSvg, .aboutSvg, .reportSvg, .themeSvg {
+svg {
     fill: white;
     height: 50px; width: 50px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+svg:hover {
+    background: #22222252;
+    border-radius: 50%;
 }
 
 @media (max-width: 768px) {
