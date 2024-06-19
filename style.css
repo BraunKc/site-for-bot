@@ -75,14 +75,20 @@ nav {
 svg {
     fill: white;
     height: 50px; width: 50px;
-    cursor: pointer;
-    transition: all 0.2s;
 }
 
-svg:hover {
-    background: #22222252;
-    border-radius: 50%;
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    outline: none;
 }
+button:active {
+    background: #000;
+}
+
 
 @media (max-width: 768px) {
     nav {
